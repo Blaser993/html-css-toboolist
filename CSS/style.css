@@ -3,9 +3,40 @@
     margin: 0;
     padding: 0;
     border: 1px solid red;
+    background-color: rgb(50, 50, 250, 0.2);
+}
+
+hr{
+    width: 100%;
 }
 
 .container{
+    background-color: white;
     margin: 0 auto;
     max-width: 600px;
+    border-radius: 8px;
 }
+
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+.logo{
+    margin-left: 12px;
+}
+
+.main-header{
+    background-color: white;
+    margin: auto;
+}
+
+.titolo{
+    font-kerning: 3px;
+    display: inline-block;
+    font-family: 'Barlow', 'Outfit', sans-serif;
+    line-height: 50px;  
+    vertical-align: top; 
+}
+
+
+
