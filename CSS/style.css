@@ -4,3 +4,8 @@
     padding: 0;
     border: 1px solid red;
 }
+
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+}
