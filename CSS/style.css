@@ -2,8 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
-    background-color: rgb(50, 50, 250, 0.2);
+    /* border: 1px solid red; */
+    /* background-color: rgb(50, 50, 250, 0.2); */
 }
 
 hr{
@@ -34,8 +34,27 @@ body{
     font-kerning: 3px;
     display: inline-block;
     font-family: 'Barlow', 'Outfit', sans-serif;
-    line-height: 50px;  
-    vertical-align: top; 
+    line-height: 50px;
+    vertical-align: top;
+}
+
+.bottone{
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: small;
+}
+
+.primario{
+    border: 0 solid;
+    border-color: rgb(81, 138, 252);
+    background-color: rgb(81, 138, 252);
+    color: white;
+}
+
+.secondario{
+    border: 1px solid rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
+    background-color: white;
 }
 
 
