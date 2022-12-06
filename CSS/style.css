@@ -98,6 +98,7 @@ ul li{
     font-size: 14px;
     font-weight: 300;
     padding-top: 8px;
+    padding-left: -14px;
 }
 
 .sezione{
@@ -105,25 +106,27 @@ ul li{
     padding-bottom: 6px;
 }
 
-.sezione:before{
-    content:" "  "\25BC" " ";
-    border-left-color: #000000;
-}
 
-.fatto:before{
-    content:" " "\2713" " ";
+.verde{
     color: rgb(50, 200, 50);
-
+    font-size: 8px;
+    font-weight: 800;
+    border: 1px solid rgb(50, 200, 50);
+    border-radius: 50%;
+    padding: 2px;
+    padding-left: 4px;
+    margin-right: 8px;
 }
 
-.non-fatto:before{
-    content:" " "\2717" " ";
+.rosso{
     color: rgb(200, 50, 50);
-}
-
-
-.tag:after{
-
+    font-size: 8px;
+    font-weight: 800;
+    border: 1px solid rgb(200, 50, 50);
+    border-radius: 50%;
+    padding: 2px;
+    padding-left: 4px;
+    margin-right: 8px;
 }
 
 .tag{
