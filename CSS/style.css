@@ -104,8 +104,21 @@ ul li{
     padding-bottom: 6px;
 }
 
-.fatto :before{
-    content:"ciao"
+.sezione:before{
+    content:" "  "\25BC" " ";
+    border-left-color: #000000;
+}
+
+.fatto:before{
+    content:" " "\2713" " ";
+    color: rgb(50, 200, 50);
+    border: 2 solid rgb(50, 200, 50);
+    border-radius: 100%;
+}
+
+.non-fatto:before{
+    content:" " "\2717" " ";
+    color: rgb(200, 50, 50);
 }
 
 
