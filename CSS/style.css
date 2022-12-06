@@ -42,7 +42,6 @@ body{
 }
 
 .bottone{
-    margin-left: 24px;
     border-radius: 4px;
     padding: 4px 8px;
     font-size: small;
@@ -61,5 +60,8 @@ body{
     background-color: white;
 }
 
-
+.list-header{
+    padding: 12px 0 6px 40px;
+    border-bottom: 1px solid lightgray;
+}
 
