@@ -137,11 +137,23 @@ ul li{
     background-color: rgb(81, 138, 252);
 }
 
-.fatto{
-    border: 2 solid rgb(50, 200, 50);
-    border-radius: 100%;
+.goals{
+    background-color: blueviolet;
 }
 
-.non-fatto{
-
+.recruiting{
+    background-color: green;
 }
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: olive;
+}
+
