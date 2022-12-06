@@ -22,23 +22,27 @@ body{
 }
 
 .logo{
+    height: 100%;
     margin-left: 12px;
+    vertical-align: middle;
 }
 
 .main-header{
+    padding: 6px 0;
+    height: 64px;
     background-color: white;
     margin: auto;
 }
 
 .titolo{
-    font-kerning: 3px;
     display: inline-block;
     font-family: 'Barlow', 'Outfit', sans-serif;
-    line-height: 50px;
     vertical-align: top;
+    vertical-align: middle;
 }
 
 .bottone{
+    margin-left: 24px;
     border-radius: 4px;
     padding: 4px 8px;
     font-size: small;
